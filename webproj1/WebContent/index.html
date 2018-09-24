@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="javascript" src=validation.js></script>
+</head>
+<body>
+<form action="voteurl" onsubmit="return validate(this)">
+persion name:<input type="text" name="pname"/><span id="nameErr"></span><br>
+persion age :<input  type="text" name="page"/><span id="ageErr"></span><br>
+<input type="hidden" value="no" name="vflag"/><br>
+<input type="submit" value="checkability"> 
+</form>
+</body>
+</html>
